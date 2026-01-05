@@ -17,3 +17,30 @@ A repo to showcase my data science and machine learning portfolio
 3. Train models in `03_modeling.ipynb`
 4. Evaluate and compare models in `04_evaluation.ipynb`
 5. Deploy using `app/streamlit_app.py`
+
+project-template/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_modeling.ipynb
+│   └── 04_evaluation.ipynb
+│
+├── src/
+│   ├── data_prep.py
+│   ├── features.py
+│   ├── train_model.py
+│   └── utils.py
+│
+├── models/
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
